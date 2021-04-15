@@ -43,7 +43,7 @@
 							$i = 0;
 							if(is_array($r))
 							while ($i < count($r)) { ?>
-							 <a class="list-group-item" href='display-recipe.php?r=<?php echo serialize($r[$i]);?>'><?= $r[$i]["name"]?>
+							 <a class="list-group-item" href='display-recipe.php?r=<?php echo serialize($r[$i]);?>'><?= $r[$i]["recipe_name"]?>
 							 </a>
 						<?php  
 							$i++;

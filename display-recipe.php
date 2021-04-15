@@ -6,8 +6,8 @@
  ?>
 	<section class="jumbotron">
 		<div class="container vertical-center">
-			<h1><?= $display["name"] ?></h1>
-			<img src=<?php echo $display["img_path"] ?>>
+			<h1><?= $display["recipe_name"] ?></h1>
+			<img class="picture" src=<?php echo "img/" . $display["img_path"]; ?> alt="" />
 			<p>Come from: <?= $display["country"] ?></p>
 			<p>Duration: <?="2h30min" ?></p>
 		</div>
